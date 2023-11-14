@@ -18,9 +18,9 @@ st.set_page_config(
 )
 
 # Main page heading
-st.title("Object Detection")
-st.caption('Updload a photo with this :blue[hand signals]: :+1:, :hand:, :i_love_you_hand_sign:, and :spock-hand:.')
-st.caption('Then click the :blue[Detect Objects] button and check the result.')
+st.title("Deteción de Objetos Fútbol")
+st.caption('Updload a photo with this :soccer:, :running:.')
+st.caption('Then click the :blue[Detect Objects] button para ver resultados.')
 
 # Sidebar
 st.sidebar.header("ML Configuración")
