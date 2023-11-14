@@ -7,7 +7,7 @@ model_path = "weights/best.pt"
 
 # Setting page layout
 st.set_page_config(
-    page_title="Object Detection using YOLOv8",  # Setting page title
+    page_title="Deteción de Futbol co YOLOv8",  # Setting page title
     page_icon="🤖",     # Setting page icon
     layout="wide",      # Setting layout to wide
     initial_sidebar_state="expanded"    # Expanding sidebar by default
@@ -19,15 +19,15 @@ with st.sidebar:
 
     # Adding file uploader to sidebar for selecting videos
     source_vid = st.sidebar.selectbox(
-        "Choose a video...",
-        ["videos/video_1.mp4", "videos/video_2.mp4"])  # Actualizar lista de selección
+        "Elegir video...",
+        ["videos/video_1.mp4"])  # Actualizar lista de selección
 
     # Model Options
     confidence = float(st.slider(
         "Select Model Confidence", 25, 100, 40)) / 100
 
 # Creating main page heading
-st.title("Object Detection using YOLOv8")
+st.title("Métricas en el Futbol con YOLOv8")
 
 try:
     model = YOLO(model_path)

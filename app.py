@@ -11,7 +11,7 @@ import helper
 
 # Setting page layout
 st.set_page_config(
-    page_title="Object Detection using YOLOv8",
+    page_title="Detección de Futbol con YOLOv8",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -23,7 +23,7 @@ st.caption('Updload a photo with this :blue[hand signals]: :+1:, :hand:, :i_love
 st.caption('Then click the :blue[Detect Objects] button and check the result.')
 
 # Sidebar
-st.sidebar.header("ML Model Config")
+st.sidebar.header("ML Configuración")
 
 # Model Options
 model_type = st.sidebar.radio(
