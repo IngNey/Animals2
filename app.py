@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Main page heading
-st.title("Deteción de Objetos de Animales")
+st.title("Deteción de Animales")
 st.caption('Updload a photo with this :soccer:, :running:.')
 st.caption('Then click the :blue[Detect Objects] button para ver resultados.')
 
