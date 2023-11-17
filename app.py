@@ -19,8 +19,8 @@ st.set_page_config(
 
 # Main page heading
 st.title("Deteción de Animales")
-st.caption('Updload a photo with this :soccer:, :running:.')
-st.caption('Then click the :blue[Detect Objects] button para ver resultados.')
+st.caption('Updload a photo with any animal')
+st.caption('Then click the :red[Detect Objects] button para ver resultados.')
 
 # Sidebar
 st.sidebar.header("ML Configuración")
