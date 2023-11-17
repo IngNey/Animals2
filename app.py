@@ -11,7 +11,7 @@ import helper
 
 # Setting page layout
 st.set_page_config(
-    page_title="Detección de Futbol con YOLOv8",
+    page_title="Detección de Animales con YOLOv8",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
